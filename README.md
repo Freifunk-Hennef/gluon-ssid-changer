@@ -8,7 +8,7 @@ It is quite basic, it just checks the Quality of the Connection and decides if a
 Create a file "modules" with the following content in your <a href="https://github.com/ffac/site/tree/offline-ssid"> site directory:</a>
 
 GLUON_SITE_FEEDS="ssidchanger"<br>
-PACKAGES_SSIDCHANGER_REPO=https://github.com/ffac/gluon-ssid-changer.git<br>
+PACKAGES_SSIDCHANGER_REPO=https://git.freifunk-hennef.de/Freifunk-Hennef/gluon-ssid-changer.git<br>
 PACKAGES_SSIDCHANGER_COMMIT=cc650fa8432c9f368e36cd60b7b1217b34d60c38<br>
 PACKAGES_SSIDCHANGER_BRANCH=chaos-calmer<br>
 
