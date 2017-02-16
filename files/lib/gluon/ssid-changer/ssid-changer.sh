@@ -5,8 +5,8 @@ MINUTES=1 # only once every timeframe the SSID will change to OFFLINE
 # set to 1 minute to change every time the router gets offline
 # set to 1440 to only check once a day
 ONLINE_SSID=$(uci get wireless.client_radio0.ssid -q)
-: ${ONLINE_SSID:=FREIFUNK}   # if for whatever reason ONLINE_SSID is NULL
-OFFLINE_PREFIX='FF_OFFLINE_' # use something short to leave space for the nodename (no '~' allowed!)
+: ${ONLINE_SSID:=Freifunk-Hennef}   # if for whatever reason ONLINE_SSID is NULL
+OFFLINE_PREFIX='OFFLINE_' # use something short to leave space for the nodename (no '~' allowed!)
 
 UPPER_LIMIT='55' # above this limit the online SSID will be used
 LOWER_LIMIT='45' # below this limit the offline SSID will be used
